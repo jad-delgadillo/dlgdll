@@ -6,7 +6,7 @@ import LinkButtons from "../components/LinkButtons";
 
 export default function Hello() {
   return (
-    <div className="flex min-h-screen w-screen flex-col items-center justify-center space-x-0 bg-[#111111] text-black  md:space-x-64 ">
+    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-[#111111] text-black py-16">
       <div className="max-w-sm space-y-2">
         <div className="bg-white rounded-lg px-3 py-4">
           <p className="text-lg font-medium">Jorge Delgadillo</p>
