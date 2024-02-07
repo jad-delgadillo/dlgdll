@@ -42,4 +42,34 @@ const projectData = [
   },
 ];
 
+export type LinkData = {
+  name: string;
+  url: string;
+  icon?: string; // Optional if you decide to use icons
+};
+
+export const linksData: LinkData[] = [
+  {
+    name: "Instagram",
+    url: "https://instagram.com/alwaysjad",
+    icon: "🤳",
+  },
+  { name: "Twitter", url: "https://twitter.com/alwaysjad", icon: "🆇" },
+  {
+    name: "Portfolio",
+    url: "/",
+    icon: "💼",
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/alwaysjad/",
+    icon: "💬",
+  },
+  {
+    name: "Say Hi",
+    url: "/hello",
+    icon: "☕️",
+  },
+];
+
 export default projectData;

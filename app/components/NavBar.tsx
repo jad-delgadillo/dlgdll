@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 export default function NavBar() {
   const pathname = usePathname();
 
-  const isAboutPage = pathname === "/about";
+  const isAboutPage = pathname === "/about" || pathname === "/hello";
 
   const navbarStyle = isAboutPage
     ? "flex w-screen fixed justify-between items-center z-[50] text-white bg-[#111111] p-3 font-medium"
