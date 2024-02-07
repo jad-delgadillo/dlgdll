@@ -16,7 +16,7 @@ const ProjectPage = () => {
 
   return (
     <main>
-      <div className="flex h-fit w-screen flex-col items-start justify-center pt-16 md:h-screen md:items-center bg-white text-black">
+      <div className="flex h-fit w-screen flex-col items-start justify-center pt-16 md:h-screen md:items-center bg-white text-black p-3">
         <div className=" flex flex-col items-center justify-center md:max-w-7xl md:flex-row md:items-center md:space-x-10 ">
           <div className="flex w-screen flex-col items-start justify-center p-3 md:w-1/2">
             <h1 className="text-6xl">{currentProject.title}</h1>
