@@ -20,7 +20,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" pb-40 md:pb-14 ">
+          <div className=" pb-20 md:pb-14 ">
             <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
               {" "}
               Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
@@ -46,6 +46,36 @@ export default function Home() {
 
       <div className="">
         <Projects />
+        <div className="w-screen flex flex-col p-3 items-center justify-center mb-10">
+          <div className="flex pb-2 mb-10 w-full items-start border-b">
+            <h1>Produced songs</h1>
+          </div>
+          <div className="flex flex-col md:flex-row w-full">
+            <div className="md:w-1/2 w-full">
+              <p className="md:text-4xl text-2xl md:mb-0 mb-3">
+                Welcome to my{" "}
+                <span className="text-[#FF480F]"> Produced Songs </span>
+                section, where I share my musical explorations. <br /> Each
+                piece reflects a journey with sound, aiming to connect and
+                inspire. <br /> I hope you find something here that speaks to
+                you.
+              </p>
+            </div>
+            <iframe
+              className=""
+              allow="autoplay *; encrypted-media *; fullscreen *"
+              height="500"
+              style={{
+                width: "100%",
+                maxWidth: "800px",
+                overflow: "hidden",
+                background: "transparent",
+              }}
+              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+              src="https://embed.music.apple.com/mx/playlist/produced-by-jorge-delgadillo/pl.u-V9D77v7IB1yx1LM?l=en-GB"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </main>
   );
