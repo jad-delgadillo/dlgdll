@@ -24,9 +24,22 @@ export default function Home() {
             <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
               {" "}
               Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
+              software engineer with a passion for tackling challenges and a
+              music artist dedicated to storytelling through soundscapes and
+              melodies.
+            </p>
+            {/* <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
+              {" "}
+              Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
+              software engineer who loves solving problems and a music artist
+              who tells stories through sound.
+            </p> */}
+            {/* <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
+              {" "}
+              Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
               Music Artist known for crafting sound atmospheres and melodies
               that capture emotions and tell stories.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

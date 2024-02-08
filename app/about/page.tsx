@@ -30,7 +30,6 @@ export default function About() {
           />
         </div>
       </div>
-      {/* <div className="hidden p-20 md:p-20"></div> */}
       <div className="w-3/3 flex h-full items-center justify-center p-3 font-medium md:w-2/3 md:items-end md:justify-end  md:p-1">
         <div>
           <p className="text-neutral-400">About </p>
@@ -56,21 +55,6 @@ export default function About() {
             is to craft solutions that not only address immediate challenges but
             also enrich the lives of those around me.
             <br /> <br />
-            {/* Co-founding ASTRO, a browser for curious kids in learning
-            environments and tutoring on the BA Product design course at Central
-            Saint Martins, UAL.
-            <br />
-            <div>
-              <br />
-              <ol>
-                <li>Exhibitions & Talks Soon... / NY / 2023</li>
-                <li>Flourish CSM / 2023</li>
-                <li>Wanted Design New York / NY / 2020</li>
-                <li>UAL: Digital Lives /UAL / 2020</li>
-                <li>London Design Festival / LND / 2020</li>
-                <li>Final Practice / CSM / 2020</li>
-              </ol>
-            </div> */}
           </div>
         </div>
       </div>

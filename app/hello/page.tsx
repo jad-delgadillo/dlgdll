@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import me2 from "../../public/Photos/me4.jpg";
 import me3 from "../../public/Photos/me11.jpg";
 import LinkButtons from "../components/LinkButtons";
 
