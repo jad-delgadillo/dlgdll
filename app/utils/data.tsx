@@ -66,9 +66,9 @@ export const linksData: LinkData[] = [
     icon: "💬",
   },
   {
-    name: "Say Hi",
-    url: "/hello",
-    icon: "☕️",
+    name: "Email",
+    url: "mailto:your.jorge.aldem@gmail.com",
+    icon: "✉️",
   },
 ];
 

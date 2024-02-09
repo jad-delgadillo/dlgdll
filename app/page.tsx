@@ -46,9 +46,11 @@ export default function Home() {
 
       <div className="">
         <Projects />
-        <div className="w-screen flex flex-col p-3 items-center justify-center mb-10">
+        <div className="w-screen flex flex-col p-3 items-center justify-center ">
           <div className="flex pb-2 mb-10 w-full items-start border-b">
-            <h1>Song Works</h1>
+            <h1 id="work" className="pt-14">
+              Songs Works
+            </h1>
           </div>
           <div className="flex flex-col md:flex-row w-full">
             <div className="md:w-1/2 w-full">
@@ -58,7 +60,7 @@ export default function Home() {
                   {" "}
                   songs I have worked on section,{" "}
                 </span>
-                where I share you my musical explorations as a producer,
+                where I share you my musical explorations as a producer, music
                 programmer and sound designer. <br /> <br /> Each piece reflects
                 a journey with sound, aiming to connect and inspire. <br /> I
                 hope you find something here that speaks to you.

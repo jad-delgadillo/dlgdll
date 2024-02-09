@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div>
       <main>
-        <div className="items-center justify-center text-black bg-white pb-14 px-3">
+        <div className="items-center justify-center text-black bg-white  px-3">
           <h1 className="mb-5">Selected work</h1>
           <div className="">
             <div className="grid grid-cols-1 items-center justify-center gap-3 md:grid-cols-2 lg:grid-cols-3">

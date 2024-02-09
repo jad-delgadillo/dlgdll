@@ -12,6 +12,9 @@ export default function NavBar() {
     ? "flex w-screen fixed justify-between items-center z-[50] text-white bg-[#111111] p-3 font-medium"
     : "flex w-screen fixed justify-between items-center z-[50] text-black bg-white p-3 font-medium";
 
+  const workLinkHref =
+    pathname === "/about" || pathname !== "/" ? "/#work" : "#work";
+
   return (
     <div className={navbarStyle}>
       <Link
@@ -31,7 +34,11 @@ export default function NavBar() {
       </Link>
 
       <div className="flex cursor-ne-resize space-x-10 transition-all hover:text-[#FF480F]">
-        <p>Work</p>
+        <Link href={workLinkHref}>
+          <div className="cursor-ne-resize transition-all hover:text-[#FF480F]">
+            Work
+          </div>
+        </Link>
       </div>
     </div>
   );
