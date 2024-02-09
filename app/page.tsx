@@ -48,17 +48,20 @@ export default function Home() {
         <Projects />
         <div className="w-screen flex flex-col p-3 items-center justify-center mb-10">
           <div className="flex pb-2 mb-10 w-full items-start border-b">
-            <h1>Produced songs</h1>
+            <h1>Song Works</h1>
           </div>
           <div className="flex flex-col md:flex-row w-full">
             <div className="md:w-1/2 w-full">
               <p className="md:text-4xl text-2xl md:mb-0 mb-3">
-                Welcome to my{" "}
-                <span className="text-[#FF480F]"> Produced Songs </span>
-                section, where I share my musical explorations. <br /> Each
-                piece reflects a journey with sound, aiming to connect and
-                inspire. <br /> I hope you find something here that speaks to
-                you.
+                Welcome to the{" "}
+                <span className="text-[#FF480F] font-medium">
+                  {" "}
+                  songs I have worked on section,{" "}
+                </span>
+                where I share you my musical explorations as a producer,
+                programmer and sound designer. <br /> <br /> Each piece reflects
+                a journey with sound, aiming to connect and inspire. <br /> I
+                hope you find something here that speaks to you.
               </p>
             </div>
             <iframe
