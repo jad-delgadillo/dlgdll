@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center bg-white text-black ">
         <div className="flex w-screen flex-col items-center overflow-auto justify-between p-3 md:space-y-40">
           <div className="mt-9 w-full">
-            <div className=" w-7/12 md:w-2/12">
+            <div className=" w-7/12 md:w-2/12 md:pb-12 pb-0">
               <ImageBlur src={me} />
               <div className="mt-2">
                 <p className="text-sm font-medium text-neutral-500">
@@ -20,7 +20,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-20 md:pb-14 ">
+          <div className="py-20 md:pb-20 ">
             <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
               {" "}
               Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
