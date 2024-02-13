@@ -49,7 +49,7 @@ export default function Home() {
         <div className="w-screen flex flex-col p-3 items-center justify-center ">
           <div className="flex pb-2 mb-10 w-full items-start border-b">
             <h1 id="work" className="pt-14">
-              Songs Works
+              Song Works
             </h1>
           </div>
           <div className="flex flex-col md:flex-row w-full">
