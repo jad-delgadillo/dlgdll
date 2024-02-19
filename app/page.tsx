@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-
+import me from "./../public/Photos/me11.jpg";
+import ImageBlur from "./components/ImageBlur";
 import Projects from "./components/Projects";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,17 +10,8 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center bg-white text-black ">
         <div className="flex w-screen flex-col items-center overflow-auto justify-between p-3 md:space-y-40">
           <div className="mt-9 w-full">
-            <div className=" w-7/12 md:w-2/12 md:pb-12 pb-0">
-              <Image
-                src="https://res.cloudinary.com/dzepeibjw/image/upload/f_auto,q_auto/v1/Aldem-01/photos/nlsnau4sf2lhfqm4t6zq"
-                alt="me"
-                width={500}
-                height={500}
-                layout="responsive"
-                className="rounded-lg"
-                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO8/eLlYgAIowNR0lR/VwAAAABJRU5ErkJggg=="
-                placeholder="blur"
-              />
+            <div className=" w-7/12 md:w-4/12 lg:w-2/12 md:pb-12 pb-0">
+              <ImageBlur src={me} />
               <div className="mt-2">
                 <p className="text-sm font-medium text-neutral-500">
                   {" "}
@@ -63,7 +54,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row w-full">
             <div className="md:w-1/2 w-full">
-              <p className="md:text-4xl text-2xl md:mb-0 mb-3">
+              <p className="md:text-2xl text-2xl md:mb-0 mb-3">
                 Welcome to the{" "}
                 <span className="text-[#FF480F] font-medium">
                   {" "}
