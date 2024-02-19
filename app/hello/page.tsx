@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import me3 from "../../public/Photos/me11.jpg";
+import me3 from "../../public/photos/me11.jpg";
 import LinkButtons from "../components/LinkButtons";
 
 export default function Hello() {

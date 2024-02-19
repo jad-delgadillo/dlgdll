@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import me2 from "../../public/Photos/me4.jpg";
-import me3 from "../../public/Photos/me2.jpg";
+import me2 from "../../public/photos/me4.jpg";
+import me3 from "../../public/photos/me2.jpg";
 
 export default function About() {
   return (
@@ -9,13 +9,14 @@ export default function About() {
       <div className="mb-2 flex w-9/12 items-end space-x-3 pt-5 md:pt-0">
         <div className="mt-10 ">
           <Image
-            src={me3}
+            src="https://res.cloudinary.com/dzepeibjw/image/upload/f_auto,q_auto/v1/Aldem-01/photos/zhpdexgypkmgoa9stzeg"
             width={500}
             height={500}
             layout="responsive"
             alt="me"
             className="rounded-lg"
             placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOc9f5zPQAHpAL951LbjgAAAABJRU5ErkJggg=="
           />
         </div>
         <div className="mt-10 hidden md:flex ">
