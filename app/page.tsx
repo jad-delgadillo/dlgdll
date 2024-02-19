@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import me from "./../public/Photos/me11.jpg";
+import me from "./../public/Photos/me11.webp";
 import ImageBlur from "./components/ImageBlur";
 import Projects from "./components/Projects";
 
