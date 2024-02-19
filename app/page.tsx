@@ -3,6 +3,7 @@ import React from "react";
 import me from "./../public/Photos/me11.webp";
 import ImageBlur from "./components/ImageBlur";
 import Projects from "./components/Projects";
+import Reels from "./components/Reels";
 
 export default function Home() {
   return (
@@ -28,24 +29,13 @@ export default function Home() {
               music artist dedicated to storytelling through soundscapes and
               melodies.
             </p>
-            {/* <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
-              {" "}
-              Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
-              software engineer who loves solving problems and a music artist
-              who tells stories through sound.
-            </p> */}
-            {/* <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
-              {" "}
-              Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
-              Music Artist known for crafting sound atmospheres and melodies
-              that capture emotions and tell stories.
-            </p> */}
           </div>
         </div>
       </div>
 
       <div className="">
         <Projects />
+
         <div className="w-screen flex flex-col p-3 items-center justify-center ">
           <div className="flex pb-2 mb-10 w-full items-start border-b">
             <h1 id="work" className="pt-14">
@@ -80,6 +70,9 @@ export default function Home() {
               src="https://embed.music.apple.com/mx/playlist/produced-by-jorge-delgadillo/pl.u-V9D77v7IB1yx1LM?l=en-GB"
             ></iframe>
           </div>
+        </div>
+        <div className="w-screen items-center justify-center flex">
+          <Reels />
         </div>
       </div>
     </main>
