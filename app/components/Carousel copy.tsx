@@ -10,6 +10,7 @@ export default function Carousel({ children: slides }: any) {
 
   return (
     <div className="flex items-center justify-center rounded-lg">
+      {" "}
       <button
         onClick={prev}
         className="z-10 mr-2 hover:bg-neutral-100 transition-all rounded-full"
@@ -24,24 +25,15 @@ export default function Carousel({ children: slides }: any) {
         </svg>
       </button>
       <div
-        className="overflow-hidden relative w-full max-w-screen-xl rounded-lg bg-black mx-auto"
-        style={{ height: "auto" }}
+        className="overflow-hidden relative"
+        style={{ width: "80%", height: "auto" }}
       >
+        {" "}
         <div
           className="flex transition-transform ease-out duration-200"
           style={{ transform: `translateX(-${curr * 100}%)` }}
         >
-          {React.Children.map(slides, (child, index) => (
-            <div
-              key={index}
-              className="flex-none w-full flex justify-center"
-              style={{ minWidth: "100%" }}
-            >
-              {React.cloneElement(child, {
-                className: "inline-block w-[100%] mx-auto",
-              })}
-            </div>
-          ))}
+          {slides}
         </div>
       </div>
       <button
