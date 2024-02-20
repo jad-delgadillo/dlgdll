@@ -33,7 +33,7 @@ export default function NavBar() {
         </div>
       </Link>
 
-      <div className="flex cursor-ne-resize space-x-10 transition-all hover:text-[#FF480F]">
+      <div className="flex cursor-ne-resize space-x-10 pr-2 transition-all hover:text-[#FF480F]">
         <Link href={workLinkHref}>
           <div className="cursor-ne-resize transition-all hover:text-[#FF480F]">
             Work

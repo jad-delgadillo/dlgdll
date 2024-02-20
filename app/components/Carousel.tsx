@@ -9,7 +9,7 @@ export default function Carousel({ children: slides }: any) {
     setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
 
   return (
-    <div className="flex items-center justify-center rounded-lg">
+    <div className="flex items-center justify-center  rounded-lg">
       <button
         onClick={prev}
         className="z-10 mr-2 hover:bg-neutral-100 transition-all rounded-full"

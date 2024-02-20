@@ -33,7 +33,7 @@ export default function SocialNavBar() {
         </Link>
         <Link
           href={"https://www.linkedin.com/in/alwaysjad/"}
-          className="cursor-ne-resize transition-all hover:opacity-50"
+          className="cursor-ne-resize transition-all hover:opacity-50 pr-2"
         >
           <Image src={inn} height={20} width={20} alt="ig icon" />
         </Link>
