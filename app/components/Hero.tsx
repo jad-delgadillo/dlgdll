@@ -1,5 +1,5 @@
 import React from "react";
-import me from "/public/Photos/me11.webp";
+import me from "/public/Photos/me12.jpg";
 import ImageBlur from "../components/ImageBlur";
 
 export default function Hero() {
@@ -7,8 +7,8 @@ export default function Hero() {
     <div>
       <div className="flex flex-col items-center justify-center bg-white text-black ">
         <div className="flex  flex-col items-center overflow-auto justify-between  md:space-y-40">
-          <div className="mt-9 ">
-            <div className=" w-7/12 md:w-4/12 lg:w-2/12 md:pb-12 pb-0">
+          <div className="mt-9 w-full ">
+            <div className=" w-7/12 md:w-4/12 lg:w-2/12 md:pb-12 pb-0 flex flex-col items-start justify-start">
               <ImageBlur src={me} />
               <div className="mt-2">
                 <p className="text-sm font-medium text-neutral-500">
