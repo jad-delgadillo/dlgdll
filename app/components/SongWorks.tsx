@@ -17,9 +17,9 @@ export default function SongWorks() {
               songs I have worked on section,{" "}
             </span>
             where I share you my musical explorations as a producer, music
-            programmer and sound designer. <br /> <br /> Each piece reflects a
-            journey with sound, aiming to connect and inspire. <br /> I hope you
-            find something here that speaks to you.
+            programmer, mix & master engineer and sound designer. <br /> <br />{" "}
+            Each piece reflects a journey with sound, aiming to connect and
+            inspire. <br /> I hope you find something here that speaks to you.
           </p>
         </div>
         <iframe
