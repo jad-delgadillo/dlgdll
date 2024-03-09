@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import me2 from "../../public/Photos/me4.jpg";
-import me3 from "../../public/Photos/me2.jpg";
 
 export default function About() {
   return (
@@ -9,24 +7,22 @@ export default function About() {
       <div className="mb-2 flex w-9/12 items-end space-x-3 pt-5 md:pt-0">
         <div className="mt-10 ">
           <Image
-            src={me3}
+            src="https://res.cloudinary.com/dzepeibjw/image/upload/v1710026251/Aldem-01/photos/zwd6r2uwecsfy9mkqvqs.jpg"
             width={500}
             height={500}
             layout="responsive"
             alt="me"
             className="rounded-lg"
-            placeholder="blur"
           />
         </div>
         <div className="mt-10 hidden md:flex ">
           <Image
-            src={me2}
+            src="https://res.cloudinary.com/dzepeibjw/image/upload/v1708322752/Aldem-01/photos/ppsae8ksrolazmke7pnq.jpg"
             width={500}
             height={500}
             layout="responsive"
             alt="me"
             className="rounded-lg"
-            placeholder="blur"
           />
         </div>
       </div>
