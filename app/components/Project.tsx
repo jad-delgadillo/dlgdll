@@ -26,7 +26,6 @@ export default function Project({
             width={1029}
             height={1500}
             className="rounded-lg "
-            placeholder="blur"
           />
           <div className="flex w-full flex-col items-start justify-start -space-y-1 px-1">
             <h1 className="text-lg font-medium">{title}</h1>

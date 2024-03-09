@@ -1,7 +1,11 @@
 import React from "react";
 import Carousel from "./Carousel";
 
-const slides = ["/reels/daop.mp4", "/reels/north.mp4", "/reels/winter.mp4"];
+const slides = [
+  "https://res.cloudinary.com/dzepeibjw/video/upload/v1710023217/Aldem-01/reels/saxll10ufny0hakybkkf.mp4",
+  "https://res.cloudinary.com/dzepeibjw/video/upload/v1710023222/Aldem-01/reels/gm6acjz38uh1rbyn0bdv.mp4",
+  "https://res.cloudinary.com/dzepeibjw/video/upload/v1710023219/Aldem-01/reels/wxbsxp4ywyrau6mvusqd.mp4",
+];
 
 export default function Reels() {
   return (

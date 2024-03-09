@@ -1,4 +1,3 @@
-import Hostile from "../../public/trailers/hpn.jpg";
 import Clover from "../../public/trailers/cloverfield-paradox.jpg";
 import Magic from "../../public/trailers/magicmikelive.jpg";
 import IsYou from "../../public/trailers/alliseeisyou.jpg";
@@ -10,8 +9,10 @@ const projectData = [
     company: "National Geographic",
     description: "Worldwide Broadcast Campaign",
     credits: "Production, Composition, Sound Design, Mixing and Master",
-    videoUrl: "/videos/hostile.mp4",
-    thumbnail: Hostile,
+    videoUrl:
+      "https://res.cloudinary.com/dzepeibjw/video/upload/v1708322814/Aldem-01/videos/gwjwlik0u5l05ocamygf.mp4",
+    thumbnail:
+      "https://res.cloudinary.com/dzepeibjw/image/upload/v1708322774/Aldem-01/trailers/d3dikrqvwdrzmz08uoh5.jpg",
   },
   {
     id: "cloverfield-paradox",
@@ -19,8 +20,10 @@ const projectData = [
     company: "Netflix",
     description: "Super Bowl TV Spot",
     credits: "Production, Composition, Sound Design, Mixing and Master",
-    videoUrl: "/videos/clover.mov",
-    thumbnail: Clover,
+    videoUrl:
+      "https://res.cloudinary.com/dzepeibjw/video/upload/v1708322778/Aldem-01/videos/lvu7qxsce1qosbel91lc.mov",
+    thumbnail:
+      "https://res.cloudinary.com/dzepeibjw/image/upload/v1708322773/Aldem-01/trailers/tuplmcooef7doeiobt2a.jpg",
   },
   // {
   //   id: "magic-mike-las-vegas",
@@ -37,8 +40,10 @@ const projectData = [
     company: "Tonight Show with Jimmy Fallon",
     description: "USA National TV Broadcast",
     credits: "Production, Compositon, Sound Design, Mixing and Master",
-    videoUrl: "/videos/IsYou.mov",
-    thumbnail: IsYou,
+    videoUrl:
+      "https://res.cloudinary.com/dzepeibjw/video/upload/v1708322796/Aldem-01/videos/zzexgqwtwwgnyky7b1ks.mp4",
+    thumbnail:
+      "https://res.cloudinary.com/dzepeibjw/image/upload/v1708322774/Aldem-01/trailers/uk9btbn3mki59qvisyqn.jpg",
   },
 ];
 

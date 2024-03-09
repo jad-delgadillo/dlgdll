@@ -1,6 +1,7 @@
 import React from "react";
 import me from "/public/Photos/me12.jpg";
 import ImageBlur from "../components/ImageBlur";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -9,7 +10,13 @@ export default function Hero() {
         <div className="flex  flex-col items-center overflow-auto justify-between  md:space-y-40">
           <div className="mt-9 w-full ">
             <div className=" w-7/12 md:w-4/12 lg:w-2/12 md:pb-12 pb-0 flex flex-col items-start justify-start">
-              <ImageBlur src={me} />
+              <Image
+                alt="profile picture of me in a nature national park"
+                src="https://res.cloudinary.com/dzepeibjw/image/upload/v1710023341/Aldem-01/photos/eticc4vfd7pnrq6pm6df.jpg"
+                width={500}
+                height={500}
+                className="rounded-lg"
+              />
               <div className="mt-2">
                 <p className="text-sm font-medium text-neutral-500">
                   {" "}
