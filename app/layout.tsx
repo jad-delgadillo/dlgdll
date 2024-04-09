@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Dangerously good creativity",
   metadataBase: new URL("https://about.alwaysjad.dev"),
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.ico?v=2",
   },
   openGraph: {
     title: "Alwaysjad",

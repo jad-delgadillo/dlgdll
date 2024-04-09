@@ -12,7 +12,7 @@ export default function Hero() {
             <div className=" w-7/12 md:w-4/12 lg:w-2/12 md:pb-12 pb-0 flex flex-col items-start justify-start">
               <Image
                 alt="profile picture of me in a nature national park"
-                src="https://res.cloudinary.com/dzepeibjw/image/upload/v1710023341/Aldem-01/photos/eticc4vfd7pnrq6pm6df.jpg"
+                src="https://res.cloudinary.com/dzepeibjw/image/upload/f_auto,q_auto/v1/Aldem-01/photos/eticc4vfd7pnrq6pm6df"
                 width={500}
                 height={500}
                 className="rounded-lg"
