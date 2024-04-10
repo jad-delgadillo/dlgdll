@@ -14,6 +14,7 @@ export default function Carousel({ children: slides }: any) {
         onClick={prev}
         className="z-10 mr-2 hover:bg-neutral-100 transition-all rounded-full"
         aria-label="Previous Slide"
+        aria-labelledby="Previous Slide"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -49,6 +50,7 @@ export default function Carousel({ children: slides }: any) {
         onClick={next}
         className="z-10 ml-2 hover:bg-neutral-100 transition-all hover:opacity-50 rounded-full"
         aria-label="Next Slide"
+        aria-labelledby="Next Slide"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
