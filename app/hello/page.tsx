@@ -12,7 +12,7 @@ export default function Hello() {
         </div>
         <div className="w-full h-[22rem] relative ">
           <Image
-            src="https://res.cloudinary.com/dzepeibjw/image/upload/v1710023341/Aldem-01/photos/eticc4vfd7pnrq6pm6df.jpg"
+            src="https://res.cloudinary.com/dzepeibjw/image/upload/f_auto,q_auto/v1/Aldem-01/photos/eticc4vfd7pnrq6pm6df"
             layout="fill"
             objectFit="cover"
             alt="me"
