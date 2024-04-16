@@ -44,7 +44,7 @@ const ProjectPage = () => {
           </div>
           <div className="flex w-fit flex-col items-center justify-center p-3 md:w-1/2 md:p-0">
             <video
-              className="rounded-lg z-[60]"
+              className="rounded-lg z-[60] bg-black"
               src={currentProject.videoUrl}
               controls
               onPlay={handlePlay}
