@@ -4,10 +4,13 @@ import "keen-slider/keen-slider.min.css";
 import { KeenSliderOptions, KeenSliderHooks } from "keen-slider";
 
 const slides = [
-  "https://res.cloudinary.com/dzepeibjw/video/upload/v1710023217/Aldem-01/reels/saxll10ufny0hakybkkf.mp4",
-  "https://res.cloudinary.com/dzepeibjw/video/upload/v1710023222/Aldem-01/reels/gm6acjz38uh1rbyn0bdv.mp4",
-  "https://res.cloudinary.com/dzepeibjw/video/upload/v1710023219/Aldem-01/reels/wxbsxp4ywyrau6mvusqd.mp4",
+  "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/saxll10ufny0hakybkkf",
+  "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/gm6acjz38uh1rbyn0bdv",
+  "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/wxbsxp4ywyrau6mvusqd",
+  "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/zegkz4dwzmekclly0l0q",
 ];
+
+const titles = ["PØW3R", "NORTH", "SAHARA WINTER", "HEAR"];
 
 export default function Reels() {
   const [sliderRef, slider] = useKeenSlider({
@@ -29,7 +32,7 @@ export default function Reels() {
         <div ref={sliderRef} className="keen-slider">
           {slides.map((url, idx) => (
             <div
-              className="keen-slider__slide number-slide1 flex items-center justify-center"
+              className="keen-slider__slide number-slide1 flex flex-col items-center justify-center"
               key={idx}
             >
               <video
@@ -37,6 +40,9 @@ export default function Reels() {
                 src={url}
                 controls
               />
+              <div className="text-center mt-2 w-full  tracking-widest font-light text-neutral-400 text-sm">
+                {titles[idx]}
+              </div>
             </div>
           ))}
         </div>
