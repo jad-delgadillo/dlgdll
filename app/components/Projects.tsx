@@ -1,5 +1,6 @@
 import Project from "./Project";
 import projects from "../utils/data";
+import { StaticImageData } from "next/image";
 
 export default function Projects() {
   return (
@@ -15,7 +16,7 @@ export default function Projects() {
                   id={project.id}
                   title={project.title}
                   description={project.description}
-                  thumbnail={project.thumbnail}
+                  thumbnail={project.thumbnail as unknown as StaticImageData} // Convert string to StaticImageData
                 />
               ))}
             </div>
