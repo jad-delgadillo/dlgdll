@@ -19,7 +19,7 @@ const ProjectPage = () => {
   const handlePause = () => setIsPlaying(false);
 
   // You can adjust the opacity level here
-  const desiredOpacity = 0.4; // Change this value to control the dim level
+  const desiredOpacity = 0.6; // Change this value to control the dim level
 
   return (
     <main>
@@ -32,7 +32,7 @@ const ProjectPage = () => {
           }}
         ></div>{" "}
         {/* Animated overlay */}
-        <div className="flex flex-col items-center justify-center md:max-w-7xl md:flex-row md:items-center md:space-x-10">
+        <div className="flex flex-col items-center justify-center md:max-w-7xl md:flex-row md:items-center md:space-x-10 ">
           <div className="flex w-screen flex-col items-start justify-center p-3 md:w-1/2">
             <h1 className="text-6xl">{currentProject.title}</h1>
             <h2 className="text-4xl">{currentProject.company}</h2>
@@ -44,7 +44,7 @@ const ProjectPage = () => {
           </div>
           <div className="flex w-fit flex-col items-center justify-center p-3 md:w-1/2 md:p-0">
             <video
-              className="rounded-lg z-[60] bg-black"
+              className="rounded-lg z-[60] bg-black "
               src={currentProject.videoUrl}
               controls
               onPlay={handlePlay}
