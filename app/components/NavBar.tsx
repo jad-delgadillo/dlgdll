@@ -9,8 +9,8 @@ export default function NavBar() {
   const isAboutPage = pathname === "/about" || pathname === "/hello";
 
   const navbarStyle = isAboutPage
-    ? "flex w-screen fixed justify-between items-center z-[50] text-white bg-[#111111] p-3 font-medium"
-    : "flex w-screen fixed justify-between items-center z-[50] text-black bg-white p-3 font-medium";
+    ? "flex w-screen fixed justify-between items-center z-40 text-white bg-[#111111] p-3 font-medium"
+    : "flex w-screen fixed justify-between items-center z-40 text-black bg-white p-3 font-medium";
 
   const workLinkHref =
     pathname === "/about" || pathname !== "/" ? "/#work" : "#work";

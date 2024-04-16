@@ -10,8 +10,8 @@ export default function SocialNavBar() {
   const pathname = usePathname();
   const isAboutPage = pathname === "/about" || pathname === "/hello";
   const socialStyle = isAboutPage
-    ? "flex w-screen bottom-0 left-0 fixed justify-between items-center z-[50] text-black bg-[#EEEEEE] p-3 font-medium filter invert"
-    : "flex w-screen bottom-0 left-0 fixed justify-between items-center z-[50] text-black bg-white p-3 font-medium";
+    ? "flex w-screen bottom-0 left-0 fixed justify-between items-center z-[10] text-black bg-[#EEEEEE] p-3 font-medium filter invert"
+    : "flex w-screen bottom-0 left-0 fixed justify-between items-center z-[10] text-black bg-white p-3 font-medium";
 
   const inn = linkedIn as string;
 
