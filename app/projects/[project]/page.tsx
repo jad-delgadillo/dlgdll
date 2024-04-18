@@ -80,7 +80,7 @@ const ProjectPage = () => {
         </div>
 
         <div
-          className="absolute bottom-14 md:bottom-20 left-0 right-0 flex w-full justify-center"
+          className="absolute bottom-20 left-0 right-0 flex w-full justify-center"
           style={{ zIndex: buttonZIndex }}
         >
           <Link href={"/"}>
