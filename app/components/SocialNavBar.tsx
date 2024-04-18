@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import ig from "../../public/icons/ig.png";
 import { usePathname } from "next/navigation";
-import linkedIn from "../../public/icons/in.svg";
+import linkedIn from "../../public/icons/email.svg";
 import Link from "next/link";
 
 export default function SocialNavBar() {
@@ -24,18 +24,31 @@ export default function SocialNavBar() {
         <div className=" flex">Say Hi! ☕️</div>
       </Link>
 
-      <div className="flex space-x-4">
+      <div className="flex flex-row-reverse space-x-4 gap-2 items-center">
         <Link
           href={"https://www.instagram.com/alwaysjad/"}
-          className="cursor-ne-resize transition-all hover:opacity-50"
+          className="cursor-ne-resize transition-all hover:opacity-50 text-black"
         >
-          <Image src={ig} height={20} width={20} alt="ig icon" />
+          <Image
+            src={ig}
+            height={20}
+            width={20}
+            alt="instagram icon"
+            className="text-black"
+          />
         </Link>
         <Link
-          href={"https://www.linkedin.com/in/alwaysjad/"}
+          href={"mailto:your.jorge.aldem@gmail.com"}
           className="cursor-ne-resize transition-all hover:opacity-50 pr-2"
+          target="_blank"
         >
-          <Image src={inn} height={20} width={20} alt="ig icon" />
+          <Image
+            src={inn}
+            className="text-black"
+            height={24}
+            width={24}
+            alt="email icon"
+          />
         </Link>
       </div>
     </div>

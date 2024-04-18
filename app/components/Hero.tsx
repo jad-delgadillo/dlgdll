@@ -28,10 +28,9 @@ export default function Hero() {
           <div className="py-20 md:pb-20 ">
             <p className="text-2xl font-medium leading-none lg:w-5/6 lg:text-[3rem]">
               {" "}
-              Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span>. A
-              software engineer with a passion for tackling <br /> challenges
-              and a music artist dedicated to storytelling through soundscapes
-              and melodies.
+              Hey, I&apos;m <span className="text-[#FF480F]"> Jorge</span> —a
+              music artist and producer fueled by a passion for storytelling
+              through rich soundscapes and captivating melodies.
             </p>
           </div>
         </div>
