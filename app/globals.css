@@ -77,3 +77,11 @@ span {
   height: 100%;
   object-fit: cover;
 }
+
+.fade-in {
+  transition: opacity 500ms ease-in;
+}
+
+.fade-out {
+  transition: opacity 300ms ease-out;
+}
