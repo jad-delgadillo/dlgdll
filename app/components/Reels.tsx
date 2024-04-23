@@ -40,7 +40,7 @@ export default function Reels() {
                 src={url}
                 controls
               />
-              <div className="text-center mt-2 w-full  tracking-widest font-light text-neutral-400 text-sm">
+              <div className="text-center mt-2 w-full  tracking-widest font-light text-neutral-700 text-sm">
                 {titles[idx]}
               </div>
             </div>
