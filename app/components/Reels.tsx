@@ -8,9 +8,10 @@ const slides = [
   "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/gm6acjz38uh1rbyn0bdv",
   "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/wxbsxp4ywyrau6mvusqd",
   "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/zegkz4dwzmekclly0l0q",
+  "https://res.cloudinary.com/dzepeibjw/video/upload/f_auto:video,q_auto/v1/Aldem-01/reels/ui1pvn5por8dpjiw4zmd",
 ];
 
-const titles = ["PØW3R", "NORTH", "SAHARA WINTER", "HEAR"];
+const titles = ["PØW3R", "NORTH", "SAHARA WINTER", "HEAR", "FEELING"];
 
 export default function Reels() {
   const [sliderRef, slider] = useKeenSlider({
