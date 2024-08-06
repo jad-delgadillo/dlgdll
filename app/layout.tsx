@@ -5,7 +5,7 @@ import SocialNavBar from "./components/SocialNavBar";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "Alwaysjad",
+  title: "Jorge Delgadillo",
   description: "Dangerously good creativity",
   metadataBase: new URL("https://about.alwaysjad.dev"),
   icons: {
