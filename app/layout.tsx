@@ -5,14 +5,14 @@ import SocialNavBar from "./components/SocialNavBar";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "Alwaysjad | Jorge Delgadillo",
+  title: "Alwaysjad",
   description: "Dangerously good creativity",
   metadataBase: new URL("https://about.alwaysjad.dev"),
   icons: {
     icon: "/favicon.ico?v=2",
   },
   openGraph: {
-    title: "Alwaysjad | Jorge Delgadillo",
+    title: "Alwaysjad",
     description: "Dangerously good creativity",
     url: "https://about.alwaysjad.dev",
     siteName: "Alwaysjad",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Alwaysjad | Jorge Delgadillo',
+    title: 'Alwaysjad',
     description: 'Dangerously good creativity',
     images: ['https://res.cloudinary.com/dzepeibjw/image/upload/v1659152027/Metadata-image---alw_nrcnx6.png'],
   },
