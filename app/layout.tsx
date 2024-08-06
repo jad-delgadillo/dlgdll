@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import SocialNavBar from "./components/SocialNavBar";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Jorge Delgadillo",
@@ -31,6 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+      <meta name="google-site-verification" content="rFEuud0-eTZWn0mT2VFWfTafqMz38kXCa_ZdFOAcLa4" />
+      </Head>
       <body className="bg-white">
         <NavBar />
         {children}
