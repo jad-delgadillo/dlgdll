@@ -32,9 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
+      <head>
       <meta name="google-site-verification" content="rFEuud0-eTZWn0mT2VFWfTafqMz38kXCa_ZdFOAcLa4" />
-      </Head>
+      </head>
       <body className="bg-white">
         <NavBar />
         {children}
