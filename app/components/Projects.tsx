@@ -1,6 +1,6 @@
 import Project from "./Project";
 import projects from "../utils/data";
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 export default function Projects() {
   return (

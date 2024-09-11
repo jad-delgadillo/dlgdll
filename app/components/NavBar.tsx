@@ -9,8 +9,8 @@ export default function NavBar() {
   const isAboutPage = pathname === "/about" || pathname === "/hello";
 
   const navbarStyle = isAboutPage
-    ? "flex w-screen fixed justify-between items-center z-40 text-white bg-[#111111] p-3 font-medium"
-    : "flex w-screen fixed justify-between items-center z-40 text-black bg-white p-3 font-medium";
+    ? "flex w-screen fixed justify-between items-center z-40 text-white bg-[#111111] p-3 font-medium text-xl"
+    : "flex w-screen fixed justify-between items-center z-40 text-black bg-white p-3 font-medium text-xl";
 
   const workLinkHref =
     pathname === "/about" || pathname !== "/" ? "/#work" : "#work";
@@ -21,22 +21,22 @@ export default function NavBar() {
         href={"/"}
         className="cursor-ne-resize transition-all hover:text-[#FF480F]"
       >
-        <div className="flex">
-          <div className="mr-2 rounded-full bg-[#FF480F] p-3"></div>
-          <div>Jorge Delgadillo</div>
+        <div className="flex items-center">
+          <div className="mr-2 rounded-full w-6 h-6 bg-[#FF480F]"></div>
+          <h3 className="">alwaysjad</h3>
         </div>
       </Link>
 
       <Link href={"/about"}>
-        <div className="cursor-ne-resize transition-all hover:text-[#FF480F]">
-          About
+        <div className="cursor-ne-resize   transition-all hover:text-[#FF480F]">
+          about
         </div>
       </Link>
 
-      <div className="flex cursor-ne-resize space-x-10 pr-2 transition-all hover:text-[#FF480F]">
+      <div className="flex cursor-ne-resize   space-x-10 pr-2 transition-all hover:text-[#FF480F]">
         <Link href={workLinkHref}>
           <div className="cursor-ne-resize transition-all hover:text-[#FF480F]">
-            Work
+            work
           </div>
         </Link>
       </div>

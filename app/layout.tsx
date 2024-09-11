@@ -5,7 +5,7 @@ import SocialNavBar from "./components/SocialNavBar";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "Jorge Delgadillo",
+  title: "alwaysjad",
   description: "Dangerously good creativity",
   metadataBase: new URL("https://about.alwaysjad.dev"),
   icons: {
@@ -22,14 +22,16 @@ export const metadata: Metadata = {
       height: 904,
       alt: "Website link image banner",
     },
-    locale: 'en_US',
-    type: 'website',
+    locale: "en_US",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Alwaysjad',
-    description: 'Dangerously good creativity',
-    images: ['https://res.cloudinary.com/dzepeibjw/image/upload/v1659152027/Metadata-image---alw_nrcnx6.png'],
+    card: "summary_large_image",
+    title: "Alwaysjad",
+    description: "Dangerously good creativity",
+    images: [
+      "https://res.cloudinary.com/dzepeibjw/image/upload/v1659152027/Metadata-image---alw_nrcnx6.png",
+    ],
   },
 };
 
@@ -41,7 +43,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta name="google-site-verification" content="rFEuud0-eTZWn0mT2VFWfTafqMz38kXCa_ZdFOAcLa4" />
+        <meta
+          name="google-site-verification"
+          content="rFEuud0-eTZWn0mT2VFWfTafqMz38kXCa_ZdFOAcLa4"
+        />
       </head>
       <body className="bg-white">
         <NavBar />
