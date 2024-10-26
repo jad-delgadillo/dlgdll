@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-qr": "node generate-qr.js"
   },
   "dependencies": {
     "keen-slider": "^6.8.6",

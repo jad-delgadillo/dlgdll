@@ -1,16 +1,10 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { usePathname } from "next/navigation";
-import { useNavbarHeight } from "../components/NavbarHeightContext";
 
 export default function NavBar() {
   const pathname = usePathname();
-  const navbarRef = useRef<HTMLDivElement | null>(null);
-  const { setNavbarHeight } = useNavbarHeight(); // Access the setter from context
-
-  const workLinkHref =
-    pathname === "/about" || pathname !== "/" ? "/#work" : "#work";
 
   const isAboutPage = pathname === "/about" || pathname === "/hello";
 
@@ -18,15 +12,11 @@ export default function NavBar() {
     ? "flex w-screen fixed justify-between items-center z-40 text-white bg-[#111111] p-3 font-medium text-xl"
     : "flex w-screen fixed justify-between items-center z-40 text-black bg-white p-3 font-medium text-xl";
 
-  useEffect(() => {
-    if (navbarRef.current) {
-      const navbarRect = navbarRef.current.getBoundingClientRect();
-      setNavbarHeight(navbarRect.height); // More precise height measurement
-    }
-  }, [setNavbarHeight]);
+  const workLinkHref =
+    pathname === "/about" || pathname !== "/" ? "/#work" : "#work";
 
   return (
-    <div ref={navbarRef} className={navbarStyle}>
+    <div className={navbarStyle}>
       <Link
         href={"/"}
         className="cursor-ne-resize transition-all hover:text-[#FF480F]"
@@ -38,12 +28,12 @@ export default function NavBar() {
       </Link>
 
       <Link href={"/about"}>
-        <div className="cursor-ne-resize transition-all hover:text-[#FF480F]">
+        <div className="cursor-ne-resize   transition-all hover:text-[#FF480F]">
           about
         </div>
       </Link>
 
-      <div className="flex cursor-ne-resize space-x-10 pr-2 transition-all hover:text-[#FF480F]">
+      <div className="flex cursor-ne-resize   space-x-10 pr-2 transition-all hover:text-[#FF480F]">
         <Link href={workLinkHref}>
           <div className="cursor-ne-resize transition-all hover:text-[#FF480F]">
             work

@@ -8,7 +8,7 @@ import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <div className="mx-auto flex flex-col p-3 pt-5">
+    <div className="mx-auto flex flex-col px-3 ">
       <Hero />
       <Projects />
       <SongWorks />

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SongWorks() {
   return (
-    <div className=" flex flex-col items-center justify-center ">
+    <div className="  ">
       <div className="flex pb-2 mb-10  items-start border-b w-full">
         <h1 id="work" className="pt-14">
           Song Works
